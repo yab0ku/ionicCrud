@@ -7,7 +7,7 @@ $year = $data['year'];
 $studentOne = $data['studentOne'];
 $studentTwo = $data['studentTwo'];
 
-$q = mysqli_query($con, "INSERT INTO worker_tbl(year,studentOne,studentTwo) VALUES ($year,$studentOne,$studentTwo)");
+$q = mysqli_query($con, "INSERT INTO student_tbl(year,studentOne,studentTwo) VALUES ($year,$studentOne,$studentTwo)");
 
 
 if($q){
